@@ -1,0 +1,17 @@
+Model,Global_RMSE_log,Tropical_RMSE_log,Degradation_percent,Welch_p_tropical_vs_other_buildings,Coverage
+Ridge Regression,1.3296721235253575,,,,full test rows
+Random Forest,0.9398125889763701,,,,full test rows
+LightGBM (No Enthalpy),0.5227480378069208,,,,full test rows
+XGBoost,0.5094864997094594,,,,full test rows
+CatBoost,0.8211132034380573,,,,full test rows
+LightGBM + Enthalpy,0.5471503300568186,,,,full test rows
+XGBoost + Enthalpy,0.5199589196959281,,,,full test rows
+CatBoost + Enthalpy,0.8501602408450937,,,,full test rows
+LightGBM + Lag Features,0.14039537913676098,,,,full test rows
+LightGBM + Enthalpy + Lag,0.14063857670070795,,,,full test rows
+XGBoost + Lag Features,0.14410586777878534,,,,full test rows
+CatBoost + Lag Features,0.14504169154989932,,,,full test rows
+Persistence (lag-1),0.15749136593287186,,,,full test rows
+Persistence (lag-24),0.3571505964425884,,,,full test rows
+Persistence (lag-168),0.4381610736602085,,,,full test rows
+GRU sequence 24h (best of 5 seeds),0.18418664407056867,,,,matched rows only (n=59728)

@@ -1,0 +1,4 @@
+Scenario,Annual_Energy_kWh,Annual_Cost_BDT,Assumed_Saving_percent_input,Projected_Cost_Saving_BDT,Modeled_Scenario_Not_Empirical
+Reactive baseline (no pre-cooling),450000.0,31500000.0,0.0,0.0,True
+Pre-cooling scenario A (5.6% assumed saving),424800.0,29736000.0,5.6000000000000005,1764000.0,True
+Pre-cooling scenario B (9.0% assumed saving),409500.0,28665000.0,9.0,2835000.0,True

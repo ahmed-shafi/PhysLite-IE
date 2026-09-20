@@ -1,0 +1,60 @@
+{
+  "created_utc": "2026-09-19T17:37:56.949184+00:00",
+  "config_sha256": "af2f97788c571891608ea717bac1c0edd38dae77a889c795c07d662c29551cce",
+  "note": "Written before any training run. Commit this file to the repo (dated commit) to support the pre-registered protocol claim.",
+  "config": {
+    "batch_size": 512,
+    "block_length_hours": 168,
+    "boost_rounds": 1000,
+    "bootstrap_iterations": 500,
+    "data_dir": "/kaggle/input/competitions/ashrae-energy-prediction",
+    "early_stopping_rounds": 50,
+    "electricity_only": true,
+    "epochs": 30,
+    "fast_mode": false,
+    "full_data": false,
+    "fusion_min_improvement": 0.01,
+    "fusion_seed_consistency": 0.8,
+    "gru_hidden": 32,
+    "learning_rate_nn": 0.001,
+    "lgb_bagging_fraction_grid": [
+      1.0
+    ],
+    "lgb_feature_fraction_grid": [
+      0.8,
+      1.0
+    ],
+    "lgb_learning_rate": 0.05,
+    "lgb_min_child_samples_grid": [
+      20
+    ],
+    "lgb_num_leaves_grid": [
+      31,
+      63
+    ],
+    "low_memory_mode": true,
+    "max_eval_windows_per_building": 400,
+    "max_train_windows_per_building": 96,
+    "n_jobs": 3,
+    "n_seeds": 5,
+    "output_dir": "/kaggle/working/outputs/tropilite_ie",
+    "patience": 5,
+    "pruning_amount": 0.4,
+    "random_seed": 42,
+    "rf_n_estimators": 150,
+    "run_codecarbon": false,
+    "run_shap": true,
+    "sample_buildings": 150,
+    "seq_lengths": [
+      24,
+      48,
+      168
+    ],
+    "shap_sample_size": 300,
+    "split_mode": "chronological",
+    "synthetic_if_missing": false,
+    "tropical_site_ids": [],
+    "xgb_cat_learning_rate": 0.05,
+    "xgb_cat_max_depth": 6
+  }
+}

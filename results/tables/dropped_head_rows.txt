@@ -1,0 +1,2 @@
+rows_before=1279511
+rows_dropped_insufficient_history=25200

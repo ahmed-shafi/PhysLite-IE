@@ -1,0 +1,11 @@
+Task,Comparison,A,B,n_units,t_stat,p_value,p_holm
+unseen_building,LightGBM + Lag Features vs Persistence (lag-1) [unseen-building],LightGBM + Lag Features,Persistence (lag-1),23,-2.533175230026245,0.0189403783905538,0.056821135171661395
+unseen_building,LightGBM + Lag Features vs XGBoost + Lag Features [unseen-building],LightGBM + Lag Features,XGBoost + Lag Features,23,-1.9883009195327759,0.059361296605522834,0.059361296605522834
+unseen_building,LightGBM + Lag Features vs CatBoost + Lag Features [unseen-building],LightGBM + Lag Features,CatBoost + Lag Features,23,-2.3451008796691895,0.02845048840390122,0.05690097680780244
+unseen_building,LightGBM + Lag Features vs LightGBM (No Enthalpy) [unseen-building],LightGBM + Lag Features,LightGBM (No Enthalpy),23,-4.614539623260498,0.00013449112857978528,0.0006724556428989264
+unseen_building,"LightGBM + Lag Features vs GRU (matched rows, n=9200) [unseen-building]",LightGBM + Lag Features,GRU sequence 24h (best of 5 seeds),23,-3.3296380043029785,0.0030404074439477607,0.012161629775791043
+unseen_site,LightGBM + Lag Features vs Persistence (lag-1) [unseen-site],LightGBM + Lag Features,Persistence (lag-1),14,1.0730985403060913,0.3027431946148637,0.9082295838445911
+unseen_site,LightGBM + Lag Features vs XGBoost + Lag Features [unseen-site],LightGBM + Lag Features,XGBoost + Lag Features,14,-1.6655337810516357,0.11970681380281065,0.4788272552112426
+unseen_site,LightGBM + Lag Features vs CatBoost + Lag Features [unseen-site],LightGBM + Lag Features,CatBoost + Lag Features,14,-0.1189570352435112,0.90712796170079,0.9082295838445911
+unseen_site,LightGBM + Lag Features vs LightGBM (No Enthalpy) [unseen-site],LightGBM + Lag Features,LightGBM (No Enthalpy),14,-3.377009391784668,0.004956543449553931,0.024782717247769655
+unseen_site,"LightGBM + Lag Features vs GRU (matched windows, n=60000) [unseen-site]",LightGBM + Lag Features,GRU sequence 24h (1 seed),14,0.9445326328277588,0.3621224197506032,0.9082295838445911

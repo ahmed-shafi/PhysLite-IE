@@ -1,0 +1,19 @@
+# PhysLite-IE Protocol A dependencies.
+# Reference environment: Kaggle notebook, Python 3.11, CPU accelerator
+# (run of 2026-09-19, build corrected-2026-09-19b-review-baselines).
+# The notebook also runs locally with recent versions of these packages;
+# no strict pins are required for reproduction of the reported metrics.
+numpy
+pandas
+scipy
+scikit-learn
+lightgbm
+xgboost
+catboost
+torch
+shap
+matplotlib
+seaborn
+joblib
+psutil
+codecarbon

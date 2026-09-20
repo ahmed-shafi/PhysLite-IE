@@ -1,0 +1,15 @@
+Artifact,Size_MB
+lightgbm_enthalpy.joblib,0.7986297607421875
+lightgbm_enthalpy.txt,0.7935895919799805
+feature_sets.json,0.0020170211791992188
+scaler_enthalpy_lag.joblib,0.0012807846069335938
+config.json,0.0012722015380859375
+scaler_lag.joblib,0.0012273788452148438
+scaler_enthalpy.joblib,0.0010976791381835938
+scaler_base.joblib,0.0010442733764648438
+imputer_enthalpy_lag.joblib,0.0007314682006835938
+imputer_lag.joblib,0.0007085800170898438
+imputer_enthalpy.joblib,0.0006704330444335938
+imputer_base.joblib,0.0006475448608398438
+primary_use_mapping.json,0.00031185150146484375
+sample_enthalpy_input.npy,0.000209808349609375

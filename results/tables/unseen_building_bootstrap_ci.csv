@@ -1,0 +1,10 @@
+Task,Model,RMSE_log,CI_95_low,CI_95_high,Coverage
+unseen_building,Persistence (lag-1),0.19087223568658981,0.11537820345605407,0.26351394659299515,full test rows
+unseen_building,Persistence (lag-24),0.3584395964477212,0.21937662765323215,0.5019008994947312,full test rows
+unseen_building,Persistence (lag-168),0.5027809589799357,0.22088437727326607,0.7460362303076435,full test rows
+unseen_building,LightGBM (No Enthalpy),1.180342284117915,0.9282637942911458,1.4576929755592696,full test rows
+unseen_building,LightGBM + Lag Features,0.16407290493804436,0.09591118067433331,0.2308557034494674,full test rows
+unseen_building,LightGBM + Enthalpy + Lag,0.16237789917450743,0.09643914096068877,0.22726926539494832,full test rows
+unseen_building,XGBoost + Lag Features,0.17332297229595917,0.09870298230284795,0.24495081157296697,full test rows
+unseen_building,CatBoost + Lag Features,0.16927968821228526,0.0987158451715358,0.23751140920031502,full test rows
+unseen_building,GRU sequence 24h (best of 5 seeds),0.18910872233294806,0.12862260433149506,0.2527569457567911,matched rows only (n=9200)

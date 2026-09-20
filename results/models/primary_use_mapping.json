@@ -1,0 +1,16 @@
+{
+  "Education": 0,
+  "Entertainment/public assembly": 1,
+  "Food sales and service": 2,
+  "Healthcare": 3,
+  "Lodging/residential": 4,
+  "Manufacturing/industrial": 5,
+  "Office": 6,
+  "Other": 7,
+  "Parking": 8,
+  "Public services": 9,
+  "Retail": 10,
+  "Services": 11,
+  "Technology/science": 12,
+  "Warehouse/storage": 13
+}

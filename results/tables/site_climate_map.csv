@@ -1,0 +1,17 @@
+site_id,koppen_class,mean_air_temp_c,annual_precip_mm_est,tropical_flag
+0,Non-tropical,22.811754744988306,12143.0,False
+1,Non-tropical,11.679073762861167,0.0,False
+2,Non-tropical,24.931150535118444,1375.0,False
+3,Non-tropical,15.496587798624207,6049.0,False
+4,Non-tropical,15.239110091047246,1856.0,False
+5,Non-tropical,10.83545690913683,0.0,False
+6,Non-tropical,15.106011424181915,7006.0,False
+7,Non-tropical,7.6338951476816534,8297.0,False
+8,Non-tropical,22.811754744988306,12143.0,False
+9,Non-tropical,21.350732165797336,6625.0,False
+10,Non-tropical,11.62180234204598,4005.0,False
+11,Non-tropical,7.6338951476816534,8297.0,False
+12,Non-tropical,9.806593449482609,0.0,False
+13,Non-tropical,9.8490366703232,7723.0,False
+14,Non-tropical,13.234667267645532,6496.0,False
+15,Non-tropical,9.346616475956823,5952.0,False
